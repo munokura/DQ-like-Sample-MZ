@@ -5,5 +5,7 @@ var $plugins =
 {"name":"MNKR_AltMenuScreenMZ","status":true,"description":"メインメニュー画面をシンプルにします。","parameters":{"actorCols":"0"}},
 {"name":"MNKR_AltBattleStatusMZ","status":true,"description":"戦闘中のステータスウィンドウをシンプルにします。","parameters":{"actorAutoCols":"true"}},
 {"name":"MNKR_AltSkillMenuMZ","status":true,"description":"メインメニュー内スキル画面をシンプルにします。","parameters":{"gaugeWidth":"352"}},
-{"name":"MNKR_SyncPlayerStep","status":true,"description":"プレイヤーとフォロワーの足踏みアニメを同期します。","parameters":{}}
+{"name":"MNKR_SyncPlayerStep","status":true,"description":"プレイヤーとフォロワーの足踏みアニメを同期します。","parameters":{}},
+{"name":"MNKR_BattleBackgroundMask","status":true,"description":"戦闘シーンの背景をマスクし、ウィンドウっぽく表示できます。","parameters":{"MaskSettings":"","maskWidth":"-1","maskHeight":"-1","maskX":"-1","maskY":"48","FrameSettings":"","frameColor":"#D0E0FF","frameWidth":"6","cornerRadius":"8"}},
+{"name":"MNKR_EnemyGroupYAdjust","status":true,"description":"敵グループのY座標を指定できます。","parameters":{"targetY":"352"}}
 ];
